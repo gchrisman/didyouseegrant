@@ -3,5 +3,14 @@ header img {
   width: 250px;
 }
 
+header img {
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+header img:hover {
+  transform: scale(1.05);
+}
+
 
 
