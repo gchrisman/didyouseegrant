@@ -45,6 +45,10 @@ header {
     color: #000;
     font-weight: bold;
   }
+
+  .nav-links a i {
+    margin-right: 5px;
+  }
   
   .nav-links a:hover {
     text-decoration: none;

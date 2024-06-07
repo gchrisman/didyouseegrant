@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 @Component({
   selector: 'app-header',
