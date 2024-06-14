@@ -1,0 +1,52 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .highlighted-article {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  .highlighted-article img {
+    width: 100%;
+    height: auto;
+  }
+
+  .highlighted-article h1 {
+    margin: 10px 0;
+  }
+
+  .highlighted-article p {
+    margin: 5px 0;
+  }
+  
+  .article-links-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .article-link {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    margin: 10px 0;
+  }
+
+  .article-link h2 {
+    margin: 0 0 5px 0;
+  }
+
+  .article-link p {
+    margin: 0 0 5px 0;
+  }
+
+  .article-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .article-link a:hover {
+    text-decoration: underline;
+  }
