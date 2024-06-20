@@ -56,10 +56,14 @@ header {
     transition: color 0.3s ease-in-out;
   }
   
-.nav-links a .fa-sign-in-alt,
+.nav-links a .fa-sign-in-alt {
+  position: fixed;
+  right: 60px;
+}
+
 .nav-links a .fa-search {
-  position: relative;
-  left: 660px;
+  position: fixed;
+  right: 25px;
 }
 
 .nav-links a .menu-icon {
